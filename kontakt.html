@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidan om Eva</title>
+</head>
+
+<body>
+    <header>
+        <h1>Min presentation</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Hem</a>
+                </li>
+                <li>
+                    <a href="hobby.html">Hobby</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Vill du komma i kontakt med mig?</h2>
+        <form>
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">E-post</label>
+            <input type="email" placeholder="namn@exempel.se" required id="email" name="email">
+            <p>Registrera dig för aviseringar via e-post</p>
+            <label>
+                <input type="radio" name="notification" value="Ja" required>Ja
+            </label>
+            <label><input type="radio" name="notification" value="Nej" required>Nej</label>
+            <br>
+            <button type="submit">Skicka</button>
+        </form>
+        <p>Du kan även kontakta mig direkt på <a
+                href="mailto:eva.m.e.bergstrom@gmail.com">eva.m.e.bergstrom@gmail.com</a></p>
+    </main>
+
+    <!--Här har jag lagt länken till kontaktsidan i mitt namn-->
+    <footer>
+        <p>© 2026 <a href=kontakt.html> Eva Bergström</a></p>
+    </footer>
+</body>
+
+</html>
