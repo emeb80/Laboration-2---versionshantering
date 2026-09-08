@@ -18,7 +18,7 @@ Git add = lägger till ändrade filer i stageing area add. lägger till samtliga
 Git commit= kopierar filerna från stageingarea till den lokala repon. 
 Man kan säga att git add lägger till filerna i vänteläge medan git commit lägger till dessa permanent i den lokala repon.
 
-Branch arbetar man med för att behålla koden stabil under tiden, det vill säga en fungernde version. Att ha en branch innbär att flera utvecklare kan arbeta samtidigt och att det inte påverkar koden under tiden.
+Branch arbetar man med för att behålla koden stabil under tiden, det vill säga en fungernde version. Att ha en branch innbär att flera utvecklare kan arbeta samtidigt och att det inte påverkar koden under tiden. Det är även ett sätt att inte ladda upp nya versioner till webbhotellet hela tiden utan att man samlar på sig ändringar och sedan när man känner sig klar och har testat så det blir bra så laddar man upp en gång, istället för efter varje ändring. 
 
 En merge innebär att jag "smälter samman" min gren med en annan gren, som i det här arbetet, där dev smälter samman med main och blir den nya koden, det nya main.
 
